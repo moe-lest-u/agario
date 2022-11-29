@@ -586,7 +586,7 @@ function tickPlayer(currentPlayer) {
         }
 
         if(typeof(currentCell.speed) == "undefined")
-            currentCell.speed = 6.25;
+            currentCell.speed = 16.25;
         masaGanada += (foodEaten.length * c.foodMass);
         currentCell.mass += masaGanada;
         currentPlayer.massTotal += masaGanada;
